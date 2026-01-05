@@ -1,16 +1,38 @@
-## Hi there 👋
+# MRJMriii
 
-<!--
-**mrjmriii/mrjmriii** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="assets/profile/hero.svg" alt="Security operations portfolio" />
+</p>
 
-Here are some ideas to get you started:
+## Portfolio snapshot
+- American security builder focused on resilient, validation-first systems
+- Target roles: Security Engineer, Junior Security Architect, DevSecOps Generalist
+- Design intent: scalable from small business to enterprise without changing core control objectives
+- Delivery focus: reproducible automation, clear rollback paths, and evidence-backed operations
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Pinned work
+- Security Ops Blueprint: https://github.com/mrjmriii/security-ops-blueprint
+- Purple Team Certification Lab: https://github.com/mrjmriii/purple-team-certification-lab
+
+## What I build
+| Area | Focus | Outcome |
+| --- | --- | --- |
+| Identity | Auth, directory services, PKI/TLS | Trust anchors and least-privilege access |
+| Segmentation | Zones, routing, exposure control | Safe service boundaries and failover |
+| Telemetry | SIEM, case mgmt, intel flow | High-fidelity signals and response loops |
+| Validation | Drills, RTO/RPO, evidence | Measurable resilience and auditability |
+
+## Operating model
+```text
+signal_path = design -> automate -> validate -> evidence
+posture     = safety_first, minimal_diffs, reproducible_runs
+```
+
+## Portfolio principles
+- Documentation is a control surface, not just a reference
+- Automation is paired with validation hooks and rollback guidance
+- Lab-only offensive postures stay isolated and reversible
+
+## Contact
+- Open to collaboration and security engineering roles
+- Prefer GitHub issues or contact by request

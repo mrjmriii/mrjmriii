@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Security Operations Portfolio</title>
+  <desc id="desc">High-tech profile banner highlighting security operations blueprint and purple team certification lab.</desc>
+  <style>
+    :root {
+      --bg: #f6f4ef;
+      --bg-2: #efe8dd;
+      --grid: #d8d2c7;
+      --ink: #11151a;
+      --muted: #4c5863;
+      --card: #ffffff;
+      --stroke: #d6d0c5;
+      --accent-1: #0f6e6d;
+      --accent-2: #c6574b;
+      --accent-3: #1f4f8c;
+      --accent-4: #d38b2a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1117;
+        --bg-2: #121823;
+        --grid: #25303a;
+        --ink: #e6edf3;
+        --muted: #a5b1be;
+        --card: #0f151d;
+        --stroke: #25303a;
+        --accent-1: #4fd5cc;
+        --accent-2: #ef7b6c;
+        --accent-3: #79b1ff;
+        --accent-4: #f2b45c;
+      }
+    }
+    text {
+      font-family: "Space Grotesk", "IBM Plex Sans", "Segoe UI", sans-serif;
+      fill: var(--ink);
+    }
+    .muted { fill: var(--muted); }
+    .title { font-size: 32px; font-weight: 700; letter-spacing: 0.4px; }
+    .subtitle { font-size: 16px; font-weight: 600; }
+    .tagline { font-size: 14px; }
+    .label { font-size: 12px; font-weight: 600; letter-spacing: 0.4px; text-transform: uppercase; }
+    .card { fill: var(--card); stroke: var(--stroke); stroke-width: 1; }
+    .card-title { font-size: 15px; font-weight: 700; }
+    .card-body { font-size: 12.5px; }
+  </style>
+  <defs>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="var(--bg)" />
+      <stop offset="100%" stop-color="var(--bg-2)" />
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M 64 0 L 0 0 0 64" fill="none" stroke="var(--grid)" stroke-width="1" opacity="0.4" />
+    </pattern>
+  </defs>
+  <rect width="1200" height="520" fill="url(#bg-gradient)" />
+  <rect width="1200" height="520" fill="url(#grid)" opacity="0.35" />
+
+  <circle cx="1010" cy="90" r="70" fill="none" stroke="var(--accent-4)" stroke-width="6" opacity="0.25" />
+  <circle cx="975" cy="70" r="40" fill="var(--accent-1)" opacity="0.18" />
+  <circle cx="1075" cy="120" r="30" fill="var(--accent-3)" opacity="0.18" />
+
+  <text x="70" y="90" class="title">MRJMriii | Security Operations Portfolio</text>
+  <text x="70" y="120" class="subtitle">Security Engineer / Junior Security Architect / DevSecOps Generalist</text>
+  <text x="70" y="146" class="tagline muted">Proud American building resilient, validation-first security systems.</text>
+
+  <text x="70" y="190" class="label muted">Core focus</text>
+
+  <rect x="70" y="210" width="330" height="170" rx="16" class="card" />
+  <rect x="70" y="210" width="330" height="6" rx="3" fill="var(--accent-3)" />
+  <text x="90" y="248" class="card-title">Security Ops Blueprint</text>
+  <text x="90" y="272" class="card-body muted">Identity, segmentation, telemetry, validation</text>
+  <text x="90" y="294" class="card-body muted">Reproducible automation + evidence</text>
+  <text x="90" y="316" class="card-body muted">Scales from SMB to enterprise</text>
+
+  <rect x="420" y="210" width="330" height="170" rx="16" class="card" />
+  <rect x="420" y="210" width="330" height="6" rx="3" fill="var(--accent-2)" />
+  <text x="440" y="248" class="card-title">Purple Team Certification Lab</text>
+  <text x="440" y="272" class="card-body muted">Phase-driven adversary emulation</text>
+  <text x="440" y="294" class="card-body muted">Wazuh-only detection validation</text>
+  <text x="440" y="316" class="card-body muted">Telemetry-first, safe by default</text>
+
+  <rect x="770" y="210" width="360" height="170" rx="16" class="card" />
+  <rect x="770" y="210" width="360" height="6" rx="3" fill="var(--accent-1)" />
+  <text x="790" y="248" class="card-title">Operating principles</text>
+  <text x="790" y="272" class="card-body muted">Design -> automate -> validate -> evidence</text>
+  <text x="790" y="294" class="card-body muted">Minimal diffs, clear rollback guidance</text>
+  <text x="790" y="316" class="card-body muted">Safety-first lab posture</text>
+
+  <rect x="70" y="410" width="1060" height="80" rx="16" class="card" />
+  <text x="90" y="448" class="subtitle">Signal path</text>
+  <text x="220" y="448" class="tagline muted">Design -> automate -> validate -> evidence</text>
+  <line x1="760" y1="448" x2="1090" y2="448" stroke="var(--accent-3)" stroke-width="4" stroke-linecap="round" />
+  <circle cx="760" cy="448" r="6" fill="var(--accent-3)" />
+  <circle cx="1090" cy="448" r="6" fill="var(--accent-3)" />
+</svg>
